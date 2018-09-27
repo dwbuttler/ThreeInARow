@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Game Settings"
+        android:key="game_settings">
+        <ListPreference
+            android:title="Colour 1"
+            android:summary="%s"
+            android:key="colour1"
+            android:defaultValue="1"
+            android:entries="@array/colour1Array"
+            android:entryValues="@array/colour1Values" />
+
+        <ListPreference
+            android:title="Colour 2"
+            android:summary="%s"
+            android:key="colour2"
+            android:defaultValue="1"
+            android:entries="@array/colour2Array"
+            android:entryValues="@array/colour2Values" />
+
+        <ListPreference
+            android:title="Grid Size"
+            android:summary="%s"
+            android:key="gridSize"
+            android:defaultValue="4"
+            android:entries="@array/gridArray"
+            android:entryValues="@array/gridValues" />
+
+        <ListPreference
+            android:title="Game Difficulty"
+            android:summary="%s"
+            android:key="difficulty"
+            android:defaultValue="60"
+            android:entries="@array/difficultyArray"
+            android:entryValues="@array/difficultyValues" />
+    </PreferenceCategory>
+</PreferenceScreen>

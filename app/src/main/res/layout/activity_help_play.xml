@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="au.edu.dbuttler1holmesglen.threeinarow.HelpPlayActivity">
+
+</android.support.constraint.ConstraintLayout>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/lbl_help_game1"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:text="@string/txt_help_game1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/img_help_game1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            app:srcCompat="@drawable/helpgame1" />
+
+        <TextView
+            android:id="@+id/lbl_help_game2"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:text="@string/txt_help_game2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/img_help_game2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.39"
+            app:srcCompat="@drawable/helpgame2" />
+
+        <TextView
+            android:id="@+id/lbl_help_game3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.39"
+            android:text="@string/txt_help_game3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/img_help_game3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.39"
+            app:srcCompat="@drawable/helpgame3" />
+
+        <TextView
+            android:id="@+id/lbl_help_game4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.05"
+            android:text="@string/txt_help_game4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/img_help_game4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/helpgame4" />
+    </LinearLayout>
+</ScrollView>

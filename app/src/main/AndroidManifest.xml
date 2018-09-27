@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.edu.dbuttler1holmesglen.threeinarow">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cube"
+        android:label="@string/game_name"
+        android:roundIcon="@drawable/cube"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="au.edu.dbuttler1holmesglen.threeinarow.GameActivity"
+            android:label="@string/game_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="au.edu.dbuttler1holmesglen.threeinarow.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="au.edu.dbuttler1holmesglen.threeinarow.HighScoreActivity"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="au.edu.dbuttler1holmesglen.threeinarow.MyPreferencesActivity"
+            android:label="@string/preferences_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="au.edu.dbuttler1holmesglen.threeinarow.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="au.edu.dbuttler1holmesglen.threeinarow.HelpSettingsActivity"
+            android:label="@string/title_help_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="au.edu.dbuttler1holmesglen.threeinarow.HelpHighScoresActivity"
+            android:label="@string/title_help_high_scores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="au.edu.dbuttler1holmesglen.threeinarow.HelpPlayActivity"
+            android:label="@string/title_help_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

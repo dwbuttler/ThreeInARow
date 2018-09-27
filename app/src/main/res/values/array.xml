@@ -1,0 +1,67 @@
+<resources>
+    <string-array name="colour1Array">
+        <item>Maroon</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="colour1Values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="colour2Array">
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Deep Blue</item>
+        <item>Green</item>
+        <item>Sage</item>
+    </string-array>
+
+    <string-array name="colour2Values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="gridArray">
+        <item>4 x 4</item>
+        <item>5 x 5</item>
+        <item>6 x 6</item>
+    </string-array>
+
+    <string-array name="gridValues">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="difficultyArray">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="difficultyValues">
+        <item>60</item>
+        <item>45</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="spinnerEntries">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
